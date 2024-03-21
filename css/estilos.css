@@ -1,0 +1,55 @@
+.buttons {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-bottom: 10px; 
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; 
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+#vueloMost {
+    width: 40%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 0; 
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: white; 
+    color: black;
+    padding: 4px 5px;
+    margin: 5px 5px;
+    border: 1.5px solid black;
+    cursor: pointer;
+    border-radius: 0; 
+    font-size: 16px;
+    font-family: 'Arial', sans-serif; 
+}
+
+button:hover {
+    background-color: black; 
+    color: white;
+}
+
+div#modificar, input[type="text"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0; 
+    box-sizing: border-box;
+}
